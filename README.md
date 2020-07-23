@@ -22,4 +22,9 @@ You should have a completed seeds file for testing
 # Answer the following questions:
 - Which method(s) does Active Record create for you?
 
+-- Student#first_name, Student#last_name, Student#grade_level, Student.all
+
 - Which method(s) did you have to create yourself? Why? 
+
+--Student.all_in_grade because it required a condition to return a portion of the records, not all of them
+--Teacher#tenure because it requires that I specify a condition that gives me extra information about the record
